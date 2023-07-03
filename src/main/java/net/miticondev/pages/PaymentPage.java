@@ -14,7 +14,7 @@ public class PaymentPage extends BasePage {
     private WebElement ibanField;
     @FindBy(xpath = "//input[@formcontrolname='bic']")
     private WebElement bicField;
-    @FindBy(xpath = "//span[@class='mat-radio-container'])[1]")
+    @FindBy(xpath = "(//span[@class='mat-radio-container'])[1]")
     private WebElement weeklyPayment;
     @FindBy(xpath = "//mat-select[@formcontrolname='weeklyDay']")
     private WebElement weeklyDropdown;
